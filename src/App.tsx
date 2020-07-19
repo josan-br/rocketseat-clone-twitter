@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Layout from './components/Layout';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <Fragment>
+      <Layout />
+      <GlobalStyles />
+    </Fragment>
+  );
 }
 
 export default App;
