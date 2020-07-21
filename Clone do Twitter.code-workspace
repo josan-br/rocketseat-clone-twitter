@@ -11,9 +11,11 @@
       "Helvetica",
       "Neue",
       "Roboto",
+      "Rocketseat",
       "Segoe",
       "esnext",
-      "heroicons"
+      "heroicons",
+      "nowrap"
     ]
   }
 }
