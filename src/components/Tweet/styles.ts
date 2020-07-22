@@ -4,7 +4,7 @@ import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: flex;
+  flex-direction: column;
   padding: 14px 16px;
   border-bottom: 1px solid var(--outline);
   max-width: 100%;

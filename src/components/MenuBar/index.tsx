@@ -42,7 +42,7 @@ const MenuBar: React.FC = () => {
           <span>Favoritados</span>
         </MenuButton>
 
-        <MenuButton>
+        <MenuButton className="active">
           <ProfileIcon />
           <span>Perfil</span>
         </MenuButton>

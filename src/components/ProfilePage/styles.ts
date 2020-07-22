@@ -25,6 +25,7 @@ export const Banner = styled.div`
 export const Avatar = styled.div`
   width: max(45px, min(135px, 22vw));
   height: max(45px, min(135px, 22vw));
+  border: 3.75px solid var(--primary);
   background: var(--gray);
   border-radius: 50%;
   position: absolute;
@@ -52,11 +53,11 @@ export const ProfileData = styled.div`
   > p {
     font-size: 15px;
     margin-top: 11px;
-  }
 
-  > a {
-    text-decoration: none;
-    color: var(--twitter);
+    > a {
+      text-decoration: none;
+      color: var(--twitter);
+    }
   }
 
   > ul {
@@ -105,14 +106,14 @@ export const CakeIcon = styled(Cake)`
 `;
 
 export const Followage = styled.div`
-display: flex;
+  display: flex;
 
-> span {
-  font-size: 15px;
-  color: var(--gray);
+  > span {
+    font-size: 15px;
+    color: var(--gray);
 
-  & + span {
-    margin-left: 20px;
+    & + span {
+      margin-left: 20px;
+    }
   }
-}
 `;
