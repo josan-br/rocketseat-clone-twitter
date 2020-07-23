@@ -18,13 +18,13 @@ export default createGlobalStyle`
   *, button, input {
     border: 0;
     background: none;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
   }
 
   html {
     background: var(--primary);
   }
-
+  
   :root {
     --primary: #000;
     --secondary: #15181C;

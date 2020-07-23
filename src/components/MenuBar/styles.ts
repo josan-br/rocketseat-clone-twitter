@@ -42,6 +42,8 @@ export const Logo = styled(Rocketseat)`
   > path {
     fill: var(--twitter);
   }
+
+  margin-bottom: 20px;
 `;
 
 export const MenuButton = styled.button`
@@ -60,6 +62,7 @@ export const MenuButton = styled.button`
       font-weight: bold;
       font-size: 19px;
     }
+
     padding-right: 15px;
   }
 

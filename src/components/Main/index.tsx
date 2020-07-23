@@ -27,9 +27,9 @@ const Main: React.FC = () => {
       </Header>
 
       <ProfilePage />
-      
+
       <BottomMenu>
-        <HomeIcon />
+        <HomeIcon className="active" />
         <SearchIcon />
         <BellIcon />
         <EmailIcon />

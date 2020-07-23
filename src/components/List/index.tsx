@@ -7,8 +7,7 @@ interface Props {
   elements: React.ReactNode[];
 }
 
-const List: React.FC<Props> = (props) => {
-  const { title, elements } = props;
+const List: React.FC<Props> = ({ title, elements }) => {
   return (
     <Container>
       <Item>

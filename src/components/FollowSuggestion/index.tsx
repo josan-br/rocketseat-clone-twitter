@@ -7,8 +7,7 @@ interface Props {
   nickname: string;
 }
 
-const FollowSuggestion: React.FC<Props> = (props) => {
-  const { name, nickname } = props;
+const FollowSuggestion: React.FC<Props> = ({ name, nickname }) => {
   return (
     <Container>
       <div>

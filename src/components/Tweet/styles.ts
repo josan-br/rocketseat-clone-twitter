@@ -40,7 +40,7 @@ export const Avatar = styled.div`
   border-radius: 50%;
   flex-shrink: 0;
   background: var(--gray);
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 `;
@@ -107,7 +107,7 @@ export const Icons = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 11px auto 0;
-  width: 100%;
+  width: 100%; /** Mobile */
 
   @media (min-width: 330px) {
     width: 63%;
@@ -140,13 +140,15 @@ export const Status = styled.div`
 
   &:nth-child(2) {
     color: var(--retweet);
+
     > svg path {
       fill: var(--retweet);
     }
   }
-
+  
   &:nth-child(3) {
     color: var(--like);
+    
     > svg {
       fill: var(--like);
     }
